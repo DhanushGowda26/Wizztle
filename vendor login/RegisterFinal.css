@@ -1,0 +1,133 @@
+.imp {
+position: absolute;
+width: 1050px;
+height: 982px;
+left: -100px;
+top: 0px;
+background: #100F0F;
+}
+
+label {
+color: white;
+}
+
+h2 {
+color: white;
+}
+
+p {
+color: white;
+}
+
+
+.frame {
+position: absolute;
+left: 390px;
+height: 982px;
+width: 735px;
+}
+
+.initialMessage {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+/* assigning colour to the form body */
+.register {
+    background-color: #100F0F;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+/* giving padding to the div inside the form  */
+.basicDetails,
+.loginDetails {
+    margin: 35px;
+}
+
+/* Making the container flex */
+.registration {
+    display: flex;
+}
+
+input[type=text],
+input[type=number],
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.createAccountButton {
+    background-color: #100F0F;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.accountButton {
+    background-color: #5E8DD4;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.termsCondition {
+    background-color: #100F0F;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+
+
+}
+
+/* Media Query for responsiveness */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .registration {
+        flex-direction: column;
+    }
+
+    .register {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .accountButton {
+        width: 80%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+    .registration {
+        flex-direction: column;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .basicDetails {
+        margin: 70px;
+        width: 62%;
+    }
+
+    .loginDetails {
+        margin: 70px;
+    }
+}
+
+.iconButton {
+    border: none;
+    cursor: pointer;
+}

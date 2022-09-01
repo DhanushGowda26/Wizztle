@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0d5478ed83.js" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="RegisterFinal.css">
+
+</head>
+
+<body>
+    <div class="imp">
+    <div class="initialMessage">
+        <h1 style="text-align: center; color: white;">Register as new Vendor</h1>
+        <p style="text-align: center; color: white;">Create your account as photographer</p>
+    </div>
+    <div class="register">
+        <div class="registration">
+            <div class="basicDetails">
+                <form class="basicDetailsForm">
+                    <h2>Basic Details</h2>
+                    <label for="username"><b>Name</b></label>
+                    <input type="text" placeholder="Enter your Name" name="username" id="username" required
+                        class="form-control" autocomplete="off">
+
+                    <label for="userCity"><b>City</b></label>
+                    <input type="text" placeholder="Enter your City" name="password" id="userCity" required
+                        class="form-control" autocomplete="off">
+
+                    <label for="userNumber"><b>Mobile Number</b></label>
+                    <input type="number" placeholder="Enter your Number" name="cpassword" id="userNumber" required
+                        class="form-control" autocomplete="off">
+                </form>
+            </div>
+
+            <div class="loginDetails">
+                <form class="loginDetailsForms">
+                    <h2>Login Details</h2>
+                    <label for="userPassword"><b>Password</b></label>
+                    <button class="iconButton"> <i class="fa fa-solid fa-eye-slash  "></i></button>
+
+                    <input type="password" placeholder="Enter your password" name="username" id="userPassword" required
+                        class="form-control">
+
+
+                    <label for="showPassword"><b>Confirm password</b></label>
+                    <input type="password" placeholder="Show Password" name="password" class="form-control" value=""
+                        id="showPassword" required>
+
+                    <i class="fa fa-solid fa-eye iconButton" id="displayPassword"></i>
+
+                </form>
+            </div>
+
+        </div>
+        <div class=" createAccountButton">
+            <button class="accountButton"><a href="/HTML/Overview.html">Create Account</a> </button>
+        </div>
+        <footer class="termsCondition">
+            <p>By signing you agree to Wizztle Terms and Conditions</p>
+        </footer>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="/Javascript/Register.js"></script>
+    </div>
+    <div class="frame">
+        <img src="Frame 1.jpg" class="frame">
+    </div>
+</body>
+
+</html>

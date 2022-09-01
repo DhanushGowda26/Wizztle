@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Freelance Photographer</title>
+	<link rel="stylesheet" type="text/css" href="Freelance.css">
+</head>
+<body>
+	<div>
+		<div class="nav_main " >
+			<div class="main_header main">
+				<div class="nav_logo">
+					<div class="logo">
+						<img src="logo.png">
+					</div>
+					<!-- <div class="nav_title" >
+						<div class="city">
+							<p>Kolkata</p>
+						</div>
+						<div class="nav_location"main>
+								<img src="dropdown.png">
+							</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="nav_buttons Birthday_nav_button  hide" >
+					<div class="explore">
+						<button >
+                            Services
+							<div class="dropdown" style="margin-top: 5px;">
+								<img src="dropdown.png">
+							</div>
+                        </button>
+					</div>
+					<div class="blogs">
+						<a>Blogs</a>
+					</div>
+					<div class="nav_search" >
+						<div class="searchimg">
+							<img src="search.png">
+						</div>
+						<div class="search">
+							<button>Search</button>
+						</div>
+					</div>
+					<div class="hline">
+						<img src="hline.png">
+					</div>
+					<div class="login">
+						<button>Login</button>
+					</div>
+				</div>
+				<button onclick="myFunction()" class="toggle shows" >
+					<img src="menu.png" alt="">
+				</button>
+				<div id="myDIV" >
+					<div class="menu Birthday_nav_button" >
+						<div class="explore">
+                            <button >
+                                Services
+                                <div class="dropdown" style="margin-top: 5px;">
+                                    <img src="dropdown.png">
+                                </div>
+                            </button>
+						</div>
+						<div class="blogs">
+							<a>Blogs</a>
+						</div>
+						<div class="nav_search" >
+							<div class="searchimg">
+								<img src="search.png">
+							</div>
+							<div class="search">
+								<button>Search</button>
+							</div>
+						</div>
+						<!-- <div class="hline">
+							<img src="hline.png">
+						</div> -->
+						<div class="login">
+							<button>Login</button>
+						</div>
+						<button onclick="myFunction()" class="close" >
+							close
+						</button>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="under_line" >
+				<hr style="margin-top: 10px;"/>
+			</div>
+		</div>
+		
+
+		<div class="main" style="margin-top: 80px;">
+			<div style="margin-top: 10px;" class="page_location" >
+				<p class="Wizztletext">Home</p>
+				<img src="sidearrow.png" class="arrow">
+				<p class="Kolkatatext">Blogs</p>
+			</div>
+			
+			<div class="intro_main" >
+				<div>
+					<h1 class="Birthday_decorations">Blogs</h1>
+				</div>
+				<div>
+					<div class="slideshow-container">
+						<div class="slide">
+							<img src="https://shots.codepen.io/doodlemarks/pen/DvgXvy-800.jpg?version=1373904927" >
+						</div>
+						<div class="slide">
+							<img src="Rectangle 33.png" >
+						</div>
+						<div class="slide">
+							<img src="https://shots.codepen.io/doodlemarks/pen/DvgXvy-800.jpg?version=1373904927" >
+						</div>
+						<div class="slide">
+							<img src="Rectangle 33.png" >
+						</div>
+						
+						<a id="neg" class="prev"><img src="chevronleft.png" class="chevronleft"></a>
+						<a id="pos" class="next"><img src="chevronright.png" class="chevronright"></a>
+					</div>
+					<div class="pill-container">
+						<span data-index="0" class="pill"></span>
+						<span data-index="1" class="pill"></span>
+						<span data-index="2" class="pill"></span>
+						<span data-index="3" class="pill"></span>
+						<div class="progress"></div>
+					</div>
+				</div>
+			</div>
+				<div class="under_line" >
+					<hr style="margin-top: 30px;" />
+				</div>
+				
+				<div class="membership" style="margin-top: 0px !important;">
+					<!-- <div class="Photography_main" >
+						<div>
+							<button class="Photography"><img src="photo.png" class="photoimg"><span>Photography</span></button>
+						</div>
+						<div>
+							<button class="Videography"><img src="stabilizer.png" class="stabimg"><span>Videography</span></button>
+						</div>
+					</div>
+					<div>
+						<button class="filter"><span>Filter</span><img src="filtersq.png" class="filterimg"></button>
+					</div> -->
+					<div id="card-container">
+						<div id="card-slider-container">
+						  <span onclick="cardSlideRight()" class="card-btn"><img src="back page.png" alt=""></span>
+							<div id="card-slider">
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+							  <div class="card-slide">  
+								<img src="Rectangle 33.png" alt="Avatar">
+								<div class="card-text" >
+									Wedding Day 
+								</div>
+							  </div>
+						  </div>
+						  <span onclick="cardSlideLeft()" class="card-btn"><img src="Next page.png" alt=""></span>
+						</div>
+					  </div>
+				</div>
+				<div class="under_line" >
+					<hr style="margin-top: 10px;"/>
+				</div>
+				<div class="all_cards" >
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+					<div class="card">
+						<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+						<div class="container">
+							<div class="card_detail" style="margin-top: 20px;">
+								<div class="blog_card_profile" >
+									<span>Best Summer Makeup Tips and Hacks
+										for 2022 Brides!</span>
+								</div>
+							</div>
+							<div class="card_lower_details" >
+								<p>Shiwani Singh </p>
+							</div>
+							<div class="card_lower_details" style="margin-bottom: 20px;">
+								<p>HAIRSTYLES</p>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+
+	<div class="main" >
+		<div class="bestPhoto_main"  style="margin-top: 60px;">
+			<h2 class="bestPhoto">Follow Us for more ideas & fun</h2>
+		</div>
+	
+		<div class="bestPhoto_buttons" style=" margin-top: 20px !important;" >
+			<div class="follow-buttons" >
+				<button>@WizztleOfficial</button>
+			</div>
+			<div class="follow-buttons" >
+				<button><img src="eva_facebook-outline.png" alt=""> @WizztleOfficial</button>
+			</div>
+			<div class="follow-buttons" >
+				<button><img src="akar-icons_pinterest-fill.png" alt=""> @WizztleOfficial</button>
+			</div>
+		</div>
+		<div class="all_cards" >
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="book_wedding" >
+		<div class="bestPhoto_main" style="margin-top: 0px !important;" >
+			<h2 class="bestPhoto">You can book wedding services too!  </h2>
+			<img src="Emoji.png" class="Emoji">
+		</div>
+		<div class="document" >
+			<a href="Event_Photgraphy.html" class="document_img" >
+				<img src="videography.png" alt="plan">
+				<div>
+					Event photography
+				</div>
+			</a>
+			<a href="Product_Photgraphers_Garments.html" class="document_img" >
+				<img src="studio.png" alt="plan">
+				<div>
+					Product photography
+				</div>
+			</a>
+			<a href="Wedding Photgraphy.html" class="document_img" >
+				<img src="doc.png" alt="plan">
+				<div>
+					Wedding photography
+				</div>
+			</a>
+			<a href="Make-up_Artist_Bridal.html" class="document_img" >
+				<img src="eyelash-mascara1.png" alt="plan">
+				<div>
+					Make-up artist
+				</div>
+			</a>
+			<a href="Wedding_Planner.html" class="document_img" >
+				<img src="wedding-planner 1.png" alt="plan">
+				<div>
+					Wedding planner
+				</div>
+			</a>
+			<a href="Birthday.html" class="document_img" >
+				<img src="plan.png" alt="plan">
+				<div>
+					Birthday planner
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="main" >
+		
+		<div class="all_cards" >
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" style="margin-top: 20px;">
+						<div class="blog_card_profile" >
+							<span>Best Summer Makeup Tips and Hacks
+								for 2022 Brides!</span>
+						</div>
+					</div>
+					<div class="card_lower_details" >
+						<p>Shiwani Singh </p>
+					</div>
+					<div class="card_lower_details" style="margin-bottom: 20px;">
+						<p>HAIRSTYLES</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main" style="margin-top: 70px;" >
+		<div class=" faq">
+			<h2>About US</h2>
+			<div class="book_wedding_about" >
+				<span>WIZTLE SERVICE PVT.LTD</span> is a Kolkata-based Aggregator business platform. We are One Stop Destination for all your artistic needs where aesthetics meets necessity. We offer a variety of services like photoshoots, event planners, make-up artists...you name it we have it; all available in a single platform so it's hassle free and organized. We enable users to choose their service from our platform in a convenient & cost-effective manner. Founded  by two LLB students, Purnendu Modak & Nilavra Sen. One platform for all services, available for both services providers and it's patrons.
+			</div>
+			<div class="See_Full_Article"  style="margin-top: 30px;">
+				<a href="#" >See Full Article</a>
+			</div>
+		</div>
+	</div>
+
+	<footer >
+		<div class="main" >
+			<div class="footer_logo" >
+				<img src="Rectangle 3.png" alt="">
+				<h4" class="oneline">One line tag</h4>
+			</div>
+			<p" class="footertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sed malesuada senectus fermentum tempus vel eu eget posuere. Ut velit sed dignissim habitant sed facilisis viverra erat turpis. Nullam commodo enim, tincidunt cursus pellentesque mi lectus tincidunt. Dictum dui sit diam donec integer nam. Ut feugiat turpis leo odio. Enim lacus, etiam penatibus mi. Placerat cras pulvinar ultrices diam nunc massa nunc pharetra. Eget ultrices eget sagittis laoreet ipsum ante nulla adipiscing volutpat.
+			</p>
+			<div class="footer_buttons" >
+				<button class="hirevendor">Hire a vendor</button>
+
+				<button class="registervendor">Register as a vendor</button>
+			</div>
+		</div>
+	
+		<div class="under_line" >
+			<hr style="margin-top: 30px;"/>
+		</div>
+
+		<div class="main" >
+			<div>
+				<h2 class="contactus" style="margin-top: 30px;">Contact Us</h2>
+			</div>
+			<div class="footer_contactUS" >
+				<div style="margin-top: 30px;">
+					<p" class="help">If you re looking for service & need help: </p>
+					<div class="footer_mail" >
+						<img src="Mail.png" class="mail">
+						<p class="mailtext">xyz@gmail.com</p>
+					</div>
+					<div class="footer_mail" >
+						<img src="Call.png" class="call">
+						<p class="phonetext">123456789</p>
+					</div>
+				</div>
+				<div style="margin-top: 30px;">
+					<p class="help">If you re looking for service & need help: </p>
+					<div class="footer_mail" >
+						<img src="Mail.png" class="mail">
+						<p class="mailtext">xyz@gmail.com</p>
+					</div>
+					<div class="footer_mail" >
+						<img src="Call.png" class="call">
+						<p class="phonetext">123456789</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer_follows" >
+				<p class="followus">Follow Us on:</p>
+				<img src="Facebook.png" class="facebook">
+				<img src="Instagram.png" class="insta">
+				<img src="Pinterest.png" class="pintrest">
+				<img src="YouTube.png" class="youtube">
+			</div>
+			<p class="copyright"> &#169; Copyright 2022 Wizztle - All Rights Reserved</p>
+		</div>
+	</footer>
+
+	<script src="Freelance.js" ></script>
+
+</body>
+</html>

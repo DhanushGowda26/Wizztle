@@ -1,0 +1,362 @@
+.sidebar {
+    width: 20%;
+    background-color: #D8E4F5;
+}
+.brand-logo {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.sidebar-items {
+    gap:2vw;
+}
+.sidebar-items a {
+    text-decoration: none;
+}
+.sidebar-items a span {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(9, 21, 23, 0.6);
+}
+.sidebar-icon {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+#main-body {
+    width: 60%;
+    padding-top: 2vw;
+    padding-left: 6vw;
+}
+#main-body > h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.71);
+}
+.progress {
+    height: 9px;
+    border-radius: 50px;
+}
+.progress-bar{
+    border-radius: 50px;
+}
+
+#service-category > h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+#service-category > table {
+    width: 85%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    border: 1px solid #DBD3D3;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+
+}
+#service-category > table thead tr th:first-child{
+    font-weight: 650;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 1vw ;
+    vertical-align: middle;
+}
+#service-category > table thead tr th:nth-child(2) {
+    padding:10px 20px;
+    border-radius: 8px 0 0 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    background: #9EBAE5;
+    text-align: center;
+    vertical-align: middle;
+    width: 206px;
+}
+#service-category > table thead tr th:nth-child(3) {
+    padding:10px 20px;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid #C4C4C4;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 206px;
+}
+.va-bottom {
+    vertical-align: bottom;
+}
+.va-middle {
+    vertical-align: middle;
+}
+.va-top {
+    vertical-align: top;
+}
+.side-heading {
+    padding-left: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 0.5vw;
+}
+#service-category > table th:first-child{
+    width: 20vw;
+}
+.dropdown button {
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox-td {
+    vertical-align: middle;
+    text-align: center;
+}
+.form-check-input {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 3px solid #444444;
+}
+.form-check-input:checked {
+    box-shadow: none;
+    border: none;
+    background: #444444;
+}
+#service-category table tbody tr:not(:first-child) {
+    height: 58px;
+}
+#service-category > table tbody tr td:not(:first-child) {
+    border-left:1px solid #DBD3D3;
+}
+.striped-grey{
+    background-color: rgba(217, 217, 217, 0.3);
+}
+#policies {
+    width: 85%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.policy >h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 2vw;
+}
+#payment-policy table {
+    border-collapse: separate;
+    border-spacing: 11px 7px;
+}
+#payment-policy  table tr:first-child td:first-child {
+    background-color: #BFD1EE;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 8px 32px 8px 8px;
+}
+#payment-policy  table tr:not(:first-child) td:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 8px 32px 8px 8px;
+    color: rgba(0, 0, 0, 0.47);
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+#payment-policy  table tr td:nth-child(2) {
+    background: #FFFFFF;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#cancellation-policy ul {
+    list-style: none;
+    padding-left: 0;
+    gap:2px;
+}
+#cancellation-policy ul li {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.47);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px 25px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+#cancellation-policy ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+#travel-policy #rateperkm {
+    width: 136px;
+    height: 44px;
+    border: none;
+    background: #BFD1EE;
+}
+#travel-policy .tp-btn {
+    font-weight: 650;
+    font-size: 20px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+    background: #BFD1EE;    
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
+}
+#save-btn {
+    width: 84px;
+    height: 40px;
+    border: none;
+    background: #9FBBE5;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+#addon-service > h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+#addon-service > table th:first-child{
+    width: 20vw;
+}
+#addon-service table {
+    width: 85%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    border: 1px solid #DBD3D3;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+#addon-service > table thead tr th:first-child{
+    font-weight: 650;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 1vw ;
+    vertical-align: middle;
+}
+#addon-service > table thead tr th:nth-child(2) {
+    padding:10px 20px;
+    border-radius: 8px 0 0 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    background: #9EBAE5;
+    text-align: center;
+    vertical-align: middle;
+    width: 206px;
+}
+#addon-service > table thead tr th:nth-child(3) {
+    padding:10px 20px;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid #C4C4C4;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 206px;
+}
+
+#addon-service > table th:first-child{
+    width: 20vw;
+}
+.table-link {
+    text-decoration: none;
+    margin-left: 1vw;
+    padding: 5px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: #BFD1EE;
+    border-radius: 6px;
+}
+#addon-service > table tbody tr td:not(:first-child) {
+    border-left:1px solid #DBD3D3;
+}
+
+#save-back {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+#save-continue {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #294F87;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+#back {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3E76CB;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid #3E76CB;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right-sidebar {
+    width: 20%;
+}

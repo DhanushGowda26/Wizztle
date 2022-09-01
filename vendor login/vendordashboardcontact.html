@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div id="page-wrapper" class="d-flex">
+
+        <div class="sidebar d-flex flex-column align-items-center justify-content-between">
+            <div class="d-flex flex-column sidebar-items">
+                <img src="wizztlelogo.svg" class="brand-logo" alt="">
+                <a href="#">
+                    <img class="sidebar-icon" src="overview.svg" alt=""><span>Overview</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="price.svg" alt=""><span>Pricing</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="description.svg" alt=""><span>Description</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="gallery.svg" alt=""><span>Gallery</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="contact.svg" alt=""><span>Contact</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="publish.svg" alt=""><span>Publish</span>
+                </a>
+            </div>
+            <div class="d-flex flex-column sidebar-items">
+                <a href="#">
+                    <img class="sidebar-icon" src="logout.svg" alt=""><span>Logout</span>
+                </a>
+                <a href="#">
+                    <img class="sidebar-icon" src="help.svg" alt=""><span>Help Center</span>
+                </a>
+            </div>
+        </div>
+        <div id="main-body">
+            <h2>Complete booking</h2>
+            <div id="progressbar" class="d-flex align-items-center gap-1">
+                <div class="progress" style="width: 75%;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <div id="progressbar-label">90%</div>
+            </div>
+            <div id="contact-info">
+                <h2>Contact Info.</h2>
+                <div class="form-check form-switch">
+                    <label for="flexSwitchCheckDefault">Available for teleconference</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
+                <p>We allow the user to have a direct conversation with the seller before booking any services which helps in trust building.</p>
+            </div>
+            <div class="d-flex" style="margin-top: 2vw;margin-bottom: 2vw;width: 85%;">
+                <div id="add-contact" class="d-flex flex-column align-items-start gap-3">
+                    <a href="#">Add Contact number</a>
+                    <input type="text">
+                </div>
+                <div id="duration">
+                    <h3>Duration</h3>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownduration" data-bs-toggle="dropdown" aria-expanded="false">
+                          4 hours
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <p id="Olsakms">Define how long your event will be. It can be as long as 1-2 hours.</p>
+            </div>
+            <div id="availability" style="width: 85%;">
+                <h2>Availability</h2>
+                <h3>TIME ZONE</h3>
+                <h4>Indian standard time</h4>
+                <div class="d-flex gap-2" id="Rkjnasj">
+                    <h3>Weekly hours</h3>
+                    <span>Select one of your schedules or define custom hours specific to this type of event.</span>
+                </div>
+                <div class="d-flex flex-column gap-3 pt-4">
+                    <div class="dayofweek">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> SUN </label>
+                        <span>Unavailable</span>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="monday" name="monday" value="monday" checked>
+                        <label for="vehicle1"> MON </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="tuesday" name="tuesday" value="tuesday" checked>
+                        <label for="vehicle1"> TUE </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="wednesday" name="wednesday" value="wednesday" checked>
+                        <label for="vehicle1"> WED </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="thursday" name="thursday" value="thursday" checked>
+                        <label for="vehicle1"> THU </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="friday" name="friday" value="friday" checked>
+                        <label for="vehicle1"> FRI </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                    <div class="dayofweek">
+                        <input type="checkbox" id="saturday" name="saturday" value="saturday" checked>
+                        <label for="vehicle1"> SAT </label>
+                        <input type="time" class="time">
+                        <span>-</span>
+                        <input type="time" class="time">
+                        <a href="#"><img src="delete.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right-sidebar">
+            <div class="d-flex justify-content-center align-items-center gap-3" style="padding-top: 2vw;">
+                <span>Hi, Avinash</span>
+            <img src="profile.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> <!--bootstrap script-->
+</body>
+</html>

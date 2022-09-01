@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Freelance Photographer</title>
+	<link rel="stylesheet" type="text/css" href="Freelance.css">
+</head>
+<body>
+	<div class="main" >
+		<div class="nav_main main" >
+			<div class="main_header">
+				<div class="nav_logo">
+					<div class="logo">
+						<img src="logo.png">
+					</div>
+					<div class="nav_title" >
+						<div class="city">
+							<p>Kolkata</p>
+						</div>
+						<div class="nav_location">
+							<div class="address">
+								<p>Old ballyguange road, kolkaya</p>
+							</div>
+							<div class="dropdown">
+								<img src="dropdown.png">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav_buttons hide" >
+					<div class="explore">
+						<button>Explore</button>
+					</div>
+					<div class="blogs">
+						<a href="Blogs.html" >Blogs</a>
+					</div>
+					<div class="nav_search" >
+						<div class="searchimg">
+							<img src="search.png">
+						</div>
+						<div class="search">
+							<button>Search</button>
+						</div>
+					</div>
+					<div class="hline">
+						<img src="hline.png">
+					</div>
+					<div class="login">
+						<button>Login</button>
+					</div>
+				</div>
+				<button onclick="myFunction()" class="toggle shows" >
+					<img src="menu.png" alt="">
+				</button>
+				<div id="myDIV" >
+					<div class="menu" >
+						<div class="explore">
+							<button>Explore</button>
+						</div>
+						<div class="blogs">
+							<a href="Blogs.html" >Blogs</a>
+						</div>
+						<div class="nav_search" >
+							<div class="searchimg">
+								<img src="search.png">
+							</div>
+							<div class="search">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="login">
+							<button>Login</button>
+						</div>
+						<button onclick="myFunction()" class="close" >
+							close
+						</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="under_line" >
+				<hr style="margin-top: 10px;"/>
+			</div>
+
+		</div>
+		
+		<div style="margin-top: 80px;" class="page_location" >
+			<p class="Wizztletext">Wizztle</p>
+			<img src="sidearrow.png" class="arrow">
+			<p class="Kolkatatext">Kolkata</p>
+			<img src="sidearrow.png" class="arrow">
+			<p class="Freelancetext">Freelance Photography</p>
+		</div>
+		
+		<div class="intro_main" >
+			<div>
+				<h1 class="FreelancePhotography">Freelance Photgraphers</h1>
+				<img src="Rating.png" class="Rating">
+			</div>
+			<div>
+				<div class="slideshow-container">
+					<div class="slide">
+						<img src="https://shots.codepen.io/doodlemarks/pen/DvgXvy-800.jpg?version=1373904927" >
+					</div>
+					<div class="slide">
+						<img src="Rectangle 33.png" >
+					</div>
+					<div class="slide">
+						<img src="https://shots.codepen.io/doodlemarks/pen/DvgXvy-800.jpg?version=1373904927" >
+					</div>
+					<div class="slide">
+						<img src="Rectangle 33.png" >
+					</div>
+					
+					<a id="neg" class="prev"><img src="chevronleft.png" class="chevronleft"></a>
+					<a id="pos" class="next"><img src="chevronright.png" class="chevronright"></a>
+				</div>
+				<div class="pill-container">
+					<span data-index="0" class="pill"></span>
+					<span data-index="1" class="pill"></span>
+					<span data-index="2" class="pill"></span>
+					<span data-index="3" class="pill"></span>
+					<div class="progress"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="under_line" >
+			<hr style="margin-top: 30px;" />
+		</div>
+		
+		<div class="membership">
+			<div class="Photography_main" >
+				<div>
+					<a href="#"  class="Photography"><img src="photo.png" class="photoimg"><span>Photography</span></a>
+				</div>
+				<div>
+					<a href="Freelance_Videography.html" class="Videography "><img src="stabilizer.png" class="stabimg"><span>Videography</span></a>
+				</div>
+			</div>
+			<div>
+				<button onclick="myFilterFunction()" class="filter"><span>Filter</span><img src="filtersq.png" class="filterimg"></button>
+				<div id="myFilter" >
+					<div class="filter_menu menu" >
+						<div class="sort" >
+							Sort By
+						</div>
+						<div class="service" >
+							Services
+						</div>
+						<div style="margin-top: 10px;" class="sub_text" >
+							Wedding Photography
+						</div>
+						<div class="sub_text" >
+							Event Planner
+						</div>
+						<div class="sub_text" >
+							Product Photography
+						</div>
+						<a href="#" class="sub_text" >More</a>
+						<div>
+							<input class="filter_input" />
+						</div>
+						<div class="under_line" >
+							<hr style="margin-top: 30px;" />
+						</div>
+						<div class="service">
+							Price (INR)
+						</div>
+						<div>
+							<div>
+								<input type="range" class="range" >
+							</div>
+							<div class="range_values" >
+								<div class="range_cost" >
+									2000
+								</div>
+								<div class="range_cost" >
+									1 Lac
+								</div>
+							</div>
+							<div class="under_line" >
+								<hr style="margin-top: 30px;" />
+							</div>
+							<div class="service">
+								Location
+							</div>
+							<div>
+								<input class="filter_input" />
+							</div>
+							<div class="powered_by" >
+								Powered by google
+							</div>
+							<div class="under_line" >
+								<hr style="margin-top: 30px;" />
+							</div>
+							<div class="service">
+								Customer Review
+							</div>
+							<div>
+								<div class="filter_rating" >
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+								</div>
+								<div class="filter_rating" >
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+								</div>
+								<div class="filter_rating" >
+									<img src="filled_star.png" alt="">
+									<img src="filled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+								</div>
+								<div class="filter_rating" >
+									<img src="filled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+									<img src="unfilled_star.png" alt="">
+								</div>
+							</div>
+							<div class="under_line" >
+								<hr style="margin-top: 30px;" />
+							</div>
+							<div class="service">
+								Date availability
+							</div>
+							<div>
+								<select class="filter_input" name="Select service" id="cars">
+								  <option value="Select service1">Select service1</option>
+								  <option value="Select service2">Select service2</option>
+								  <option value="Select service3">Select service3</option>
+								  <option value="Select service4">Select service4</option>
+								</select>
+							</div>
+							<div class="powered_by" >
+								*  Choose a service
+							</div>
+						</div>
+						<button style="margin-top: 30px;" onclick="myFilterFunction()" class="close" >
+							close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+				<div class="greenrec"></div>
+				<img src="getcustom.png" class="getcustom">
+				<h2 class="get">Get Customized Deals</h2>
+				<p class="requestyour">Request your vendor a personalized project <br> and get the best deal</p>
+				<button class="post">Post a Request</button>
+				
+	    </div>
+		<div class="all_cards" >
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="under_line" >
+						<hr style="margin-top: 10px;"/>
+					</div>	
+					<div class="card_cost" >
+						<div>
+							₹2000/-
+						</div>
+						<div>
+							<button>view plans</button>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="under_line" >
+		<hr style="margin-top: 90px;"/>
+	</div>
+
+	<div class="main" >
+		<div class="bestPhoto_main"  >
+			<h2 class="bestPhoto">Get the Best Photographers in Town! </h2>
+			<img src="Emoji.png" class="Emoji">
+		</div>
+	
+		<div class="bestPhoto_buttons"  >
+			<div class="Product_main" >
+				<a href="Product_Photgraphers_Garments.html" class="Product"><img src="studio.png" class="studio"><span>Product photography</span></a>
+			</div>
+			<div class="Product_main" >
+				<a href="Event_Photgraphy.html" class="Product"><img src="videography.png" class="video"><span> Event photography</span></a>
+			</div>
+			<div class="Product_main" >
+				<a href="Wedding Photgraphy.html" class="Product"><img src="doc.png" class="doc"><span> Wedding photography</span></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="under_line" >
+		<hr style="margin-top: 70px;"/>
+	</div>
+
+	<div class="main" >
+		<div class="recommended_main" >
+			<h2 class="recommended">Recommended</h2>
+			<button class="see_all" >See all</button>
+		</div>
+		<div class="cards_main" >
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="start_card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="favorite" >
+							<img src="favorite.png" alt="favorite">
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="strating_at" >
+						STARTING AT
+					</div>	
+					<div class="card_cost" style="margin-top: 0; margin-bottom: 0px;" >
+						<div>
+							₹2000/-
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>	
+					<div class="start_view" >
+						<button>View Plans...</button>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="start_card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="favorite" >
+							<img src="favorite.png" alt="favorite">
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="strating_at" >
+						STARTING AT
+					</div>	
+					<div class="card_cost" style="margin-top: 0; margin-bottom: 0px;" >
+						<div>
+							₹2000/-
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>	
+					<div class="start_view" >
+						<button>View Plans...</button>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="start_card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="favorite" >
+							<img src="favorite.png" alt="favorite">
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="strating_at" >
+						STARTING AT
+					</div>	
+					<div class="card_cost" style="margin-top: 0; margin-bottom: 0px;" >
+						<div>
+							₹2000/-
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>	
+					<div class="start_view" >
+						<button>View Plans...</button>
+					</div>	
+				</div>
+			</div>
+			<div class="card">
+				<img src="Rectangle 33.png" alt="Avatar" style="width:100%">
+				<div class="container">
+					<div class="card_detail" >
+						<div class="start_card_profile" >
+							<img src="profile.png" alt="profile">
+							<span>Akash</span>
+						</div>
+						<div class="favorite" >
+							<img src="favorite.png" alt="favorite">
+						</div>
+					</div>
+					<div class="card_location" >
+						<p>Kolkata</p>
+						<img src="location.png" alt="location"> 
+					</div>
+					<div class="strating_at" >
+						STARTING AT
+					</div>	
+					<div class="card_cost" style="margin-top: 0; margin-bottom: 0px;" >
+						<div>
+							₹2000/-
+						</div>
+						<div class="star_rating" >
+							<img src="star.png" />
+							<span>
+								4.4
+							</span>
+						</div>
+					</div>	
+					<div class="start_view" >
+						<button>View Plans...</button>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main otherService" >
+		<div>
+			<h2 class="otherServicetext">Other Services</h2>
+		</div>
+		<div class="document" >
+			<a href="Event_Photgraphy.html" class="document_img" >
+				<img src="videography.png" alt="plan">
+				<div>
+					Event photography
+				</div>
+			</a>
+			<a href="Product_Photgraphers_Garments.html" class="document_img" >
+				<img src="studio.png" alt="plan">
+				<div>
+					Product photography
+				</div>
+			</a>
+			<a href="Wedding Photgraphy.html" class="document_img" >
+				<img src="doc.png" alt="plan">
+				<div>
+					Wedding photography
+				</div>
+			</a>
+			<a href="Make-up_Artist_Bridal.html" class="document_img" >
+				<img src="eyelash-mascara1.png" alt="plan">
+				<div>
+					Make-up artist
+				</div>
+			</a>
+			<a href="Wedding_Planner.html" class="document_img" >
+				<img src="wedding-planner 1.png" alt="plan">
+				<div>
+					Wedding planner
+				</div>
+			</a>
+			<a href="Birthday.html" class="document_img" >
+				<img src="plan.png" alt="plan">
+				<div>
+					Birthday planner
+				</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="under_line" >
+		<hr style="margin-top: 70px;"/>
+	</div>
+
+	<div class="main" >
+		<div class="get_best_deals" >
+				Get Best Deals & Recommendations!
+		</div>
+		<div class="best_deals_chat" >
+			<div style="margin-top: 0px;" >
+				<div class="best_deals" >
+					<img src="Group.png" alt="">
+					<span>
+						Submit your mobile number
+					</span>
+				</div>
+				<div class="best_deals">
+					<img src="Vector (1).png" alt="">
+					<span>
+						Share your details and get recommendations 
+					</span>
+				</div>
+				<div class="best_deals">
+					<img src="deal.png" alt="">
+					<span>
+						Get the best deal
+					</span>
+				</div>
+			</div>
+			<div>
+				<div>
+					<h3 class="nametext">Name</h3>
+				</div>
+				<div>
+					<input type="text" name="mobnum" class="mobnum">
+				</div>
+				<div>
+					<h3 class="nametext">Mobile Number</h3>
+				</div>
+				<div>
+					<input type="text" name="mobnum" class="mobnum">
+				</div>
+				<div class="submit-button" >
+					<button>Submit</button>
+				</div>
+			</div>
+			<div>
+				<img src="peeps.png" class="peeps">
+			</div>
+		</div>
+	</div>
+	
+	<div class="under_line" >
+		<hr style="margin-top: 70px;"/>
+	</div>
+
+	<div class="main" style="margin-top: 70px;" >
+		<div class="faq">
+			<h2>Frequently Asked Questions</h2>
+			<h3>Q-1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales elit nisi imperdiet nunc neque nunc nunc.</p>
+			<h3>Q-2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales elit nisi imperdiet nunc neque nunc nunc.</p>
+		</div>
+	</div>
+
+	<footer>
+<div class="footer">
+	<img src="./Rectangle 967.png" alt="">
+</div>
+	</footer>
+
+	<script src="Freelance.js" ></script>
+
+</body>
+</html>

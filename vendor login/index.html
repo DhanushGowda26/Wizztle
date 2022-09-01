@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleap
+<title>Publish</title>
+</head>
+<body>
+	<div class="screen">
+		<div class="sidebar"> <!--side bar-->
+		<img src="logo.png" class="logo">
+		<ul class="side">
+		<li class="sideb">Overview</li>
+		<li class="sideb">Pricing</li>
+		<li class="sideb">Description</li>
+		<li class="sideb">Gallery</li>
+		<li class="sideb">Contact</li>
+		<li class="sideb">Publish</li>
+		</ul>
+		<img src="icon.png" class="icon">
+		<img src="logout.png" class="logout">
+		<img src="help.png" class="help">
+		</div> 
+		<div class="middle">  <!--middle part-->
+		<div class="loader">
+		<h1 class="profile">Complete your profile</h1>
+		<img src="slider.png" class="slide">
+		</div>
+		<img src="dp.png" class="dp">
+		<p class="hi">Hi, Avinash</p>
+		<!-- select category -->
+		<div class="service">
+		<form action="" method="post">
+		<h1> <strong>Service Category</strong></h1>
+		<h3>Selct the category which suits you the best!</h3>
+		<select  class="category" name="" id="" >
+		<option value="" disabled selected hidden>Selct your option</option>
+		<option value="1">Photography</option>
+		<option value="2">Wedding Photographer</option>
+		<option value="3">Food Photographt</option>
+		<option value="4">Product Photography</option>
+		<option value="5">Event Manager</option>
+		<option value="6">Makeup Artist</option>
+		</select>
+		</form>
+		<!-- Metadata -->
+		<div class="metadata">
+		<form action="" method="post">
+		<div class="side1">
+		<h1> <strong>Service Metadata</strong></h1>
+		<h3>Add metadata to the service you selected,Make your service more visible and clear for the buyers.</h3>
+		<div class="data">
+		<button class="basic">Basic</button>
+		<button class="advance">Advance</button>
+		</div>
+		<div class="data1">
+		<div class="arr-right1"></div>
+		<h1 class="hours">Hours</h1>
+		</div>
+		<div class="data2">
+		<h1 class="include">Included</h1>
+		<div class="arr-right2"></div>
+		</div>
+		</div>
+		<div class="timings">
+		<div class="totalhours">
+         <h1 class="first">1-4 Hours</h1>
+        <h1 class="second">4-8 Hours</h1>
+		<h3 class="selecthours">Select the hours you are available for your service category</h3>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="location">
+		<form action="" method="post">
+		<h1>Servicable Location</h1>
+		<h3>Select your Location for the serviceprovide</h3>
+		<select class="category" name="" id="">
+		<option value="" disabled selhidden>Selct you	option</option>
+		<option value="1">Kolkata</option>
+		<option value="2">Bankura</option>
+		<option value="3">Nadida</option>
+		<option value="4">Hoogly</option>
+		<option value="5">Alipurdurar</option>
+		<option value="6">Darjeeling</option>
+		</select>
+		<h3 >Travel Outstations</h3>
+		<div id="toggle">
+		<i class="indicator"></i>
+		</div>
+		<div class="tags">
+		<h1>Search Tags</h1>
+		<h3>Enter the tags with which users can find you</h3>
+		<textarea class="keyword" name="" id="" cols="40" rows="10"></textarea>
+		<h3>Ex. #weddingseason #instantclick</h3>
+	<!-- <input type="checkbox"> -->
+		<input class="check" type="checkbox"><p class="decleare">I declare that these materials weree created by myself or by my team and do not infringe on any 3rd party rights. I
+		nderstand that the illegal use of digitaets is against Wizztle's Terms of Service and may result in blocking my<p>
+		</form>
+		<div class="action">
+		<div class="goback">
+		<button id="prev">back<button>
+		</div>
+		<div class="forward">
+		<button id="next">Save & continue</button>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+<script>
+const toggle = document.getElementById('toggle');
+toggle.onclick = function () {
+toggle.classList.toggle("active")
+}
+</script>
+</body>
+</html>
+

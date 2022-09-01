@@ -1,0 +1,192 @@
+.sidebar {
+    width: 20%;
+    background-color: #D8E4F5;
+}
+.brand-logo {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.sidebar-items {
+    gap:2vw;
+}
+.sidebar-items a {
+    text-decoration: none;
+}
+.sidebar-items a span {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(9, 21, 23, 0.6);
+}
+.sidebar-icon {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+#main-body {
+    width: 60%;
+    padding-top: 2vw;
+    padding-left: 6vw;
+}
+#main-body > h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.71);
+}
+.progress {
+    height: 9px;
+    border-radius: 50px;
+}
+.progress-bar{
+    border-radius: 50px;
+}
+
+#contact-info > h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+#contact-info > p {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    width: 500px;
+    color: rgba(0, 0, 0, 0.47);
+
+}
+#add-contact {
+    margin-right: 100px;
+}
+
+#add-contact a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    width: 250px;
+    height: 50px;
+    background: #BFD1EE;
+    border-radius: 15px;
+}
+#add-contact input {
+    padding: 10px 20px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #3E76CB;
+    border-radius: 15px;
+}
+#duration {
+    font-weight: 650;
+    font-size: 20px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 20px;
+}
+
+#dropdownduration {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+#Olsakms {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.53);
+}
+.form-check label {
+    font-weight: 650;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.47);
+}
+
+#availability h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+#availability h3 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: rgba(0, 0, 0, 0.47);
+}
+#availability h4 {
+    font-weight: 650;
+    font-size: 14px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.47);
+}
+#Rkjnasj {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+#Rkjnasj h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+#Rkjnasj span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.47);
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.dayofweek label{
+    box-sizing: border-box;
+    width: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.dayofweek .time {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right-sidebar {
+    width: 20%;
+}
